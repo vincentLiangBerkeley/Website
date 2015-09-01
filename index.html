@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Ruochen Liang</title>
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    
+    
+  </head>
+
+  <body>
+
+    <head>
+  <title> Ruochen Liang's Work Station</title>
+</head>
+
+<!-- I will build this website from top to bottom -->
+
+<!-- First thing first is a navigation bar-->
+
+<body>
+  <nav class='navbar navbar-default navbar-fixed-top'>
+    <div class='container-fluid'>
+      <!--container for the navigation bar-->
+      <div class='navbar-header'>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class='navbar-brand' href='#'> Ruochen </a>
+      </div>
+      <!-- Collect navigation links-->
+      <div class="collapse navbar-collapse">
+        <ul class='nav navbar-nav'>
+          <li> <a href='#'>Home</a></li>
+          <li> <a href='#about'> About </a></li>
+          <li> <a href='#teaching'> Teaching </a></li>
+          <li> <a href='https://github.com/vincentLiangBerkeley'><i class="fa fa-github fa-fw"></i> Github </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header, this can be deleted -->
+  <a name='#home'></a>
+  <div class='intro-header'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-lg-12'>
+          <div class='intro-message'>
+            <h1> Ruochen's Workstation</h1>
+            <hr class='intro-divider'>
+              <div class='row'>
+                <div class='col-md-3'>
+                  <img id='emotion' class='img-circle img-responsive' src='emotion1.png' alt='IMG'>
+                </div>
+                <script type="text/javascript">
+                  $("#emotion").hover(function(){
+                      $('#emotion').animate({
+                        opacity:0.25
+                      }, 100, function(){
+                        var src = ($(this).attr('src')==='emotion1.png') ? 'emotion2.png':'emotion1.png';
+                        $(this).attr('src', src);
+                        $('#emotion').animate({
+                          opacity:1.0
+                        }, 100, function(){});
+                      });
+                  });
+                </script>
+                <div class='col-md-9'>
+                  <h3 id='head-message'> Many people can learn math, but few can learn it in one life cycle.</h3>
+                  <ul class='contact'>
+                    <li>Email: liangrc2012[AT]berkeley.edu
+                    </li>
+                    <li>Office: 739 Evans
+                    </li>
+                    <li>Office Hours: Thursday 3:30-5:30 pm(temporarily)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--About -->
+  <a name='about'></a>
+  <div class='content-section-a'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-lg-5 col-sm-6'>
+          <h2 class='section-heading'>Ruochen Liang
+          </h2>
+          <br>
+          <br>
+          <p class='lead'>
+            I am a second year Ph.D student in <a href='http://www.berkeley.edu'>UC Berkeley</a>. Prior to that I was pursuing my undergraduate Math degree in <a href='http://www.hku.hk'>The University of Hong Kong</a>.
+            <br>
+            <br> My primary research interests lie in numerical linear algebra and its possible applications. Currently I am studying machine learning and trying to explore opportunities in that.
+            <br>
+            <br> Besides Math I also play classical guitar and I believe that Math and Music have some things in common :)
+          </p>
+        </div>
+        <!--col-->
+        <div class="col-lg-5 col-lg-offset-2 col-sm-6 collapse navbar-collapse">
+          <img class="img-circle img-responsive" src='Thumb1.png' alt="">
+        </div>
+      </div>
+      <!--row -->
+
+    </div>
+    <!--container -->
+  </div>
+  <!--content-section-a-->
+
+  <a name='teaching'></a>
+  <div class='content-section-b'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-lg-5 col-sm-6'>
+          <h2 class='teaching'>Teaching</h2>
+          <p class='lead'>
+        Since I have accidentally deleted the my website folder on the server, I have lost all my past teaching materials and sigh....<br><br>
+	Here's the <a href="http://alumni.berkeley.edu/california-magazine/just-in/2014-09-02/cal-lecturers-email-students-goes-viral-why-i-am-not" target='blank'>email</a> that went virus I mentioned to you guys in section, try to read it.
+        <ul class='teaching'>
+          <li> Fall 2014: <a href='https://math.berkeley.edu/~apaulin/1B_002.html'>MATH 1B</a> with Alexander Paulin (Dont try to Google him). But I also find this <a href='https://math.berkeley.edu/~reshetik/index1b-14.html'>website</a> very useful.
+          </li>
+          <li> Spring 2015: <a href='https://math.berkeley.edu/~qadeer/teaching/Math1B/Math1B.html'>MATH 1B</a> with Alexander Coward.
+          <li> Fall 2015:<a href='https://math.berkeley.edu/~vojta/1b.html'>MATH 1B</a> with Professor Paul Vojta.
+        </ul>
+      </p>
+        </div>
+        <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+          <p class='lead second'>
+            Fall 2015 <br>
+            <ul class='teaching'>
+              <li> Aug 26: Semester begins! I handed out <a href='sections/Section.pdf' target='blank'>Section Information</a> and we did <a href='sections/Section1.pdf' target='blank'>Worksheet 1</a>.</li>
+               <li> Aug 28: We reviewed <b>Integration by Part</b> and did <a href="sections/Worksheet_2.pdf">Worksheet 2</a>. And don't forget about the three steps for doing math problems!</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="list-inline">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li class="footer-menu-divider">&sdot;</li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li class="footer-menu-divider">&sdot;</li>
+            <li>
+              <a href="#portfolio">Teaching</a>
+            </li>
+            
+          </ul>
+          <p class="copyright text-muted small">Copyright &copy; Ruochen Liang 2015. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
